@@ -12,7 +12,7 @@ function forkRepo() {
       {
         method: "POST",
         headers: {
-          Authorization: `token '8addcf046f47e9d37d6b2fc04d23d8fa1a01c9d0'`
+          Authorization: `token '771e9aa5611c9a478792b64ec381944b8f00e477 '`
       }
     }
   ).then(res => res.json())
