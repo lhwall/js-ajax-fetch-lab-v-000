@@ -10,7 +10,7 @@ function forkRepo() {
   const personalRepo = "api.github.com/repos/" + repo + "/forks"
   let results =  fetch(personalRepo,
       {
-        method: "POST",
+        method: "GET",
         headers: {
           Authorization: `token ${getToken()}`
       }
